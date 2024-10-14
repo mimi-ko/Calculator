@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    background-color: #faa60a;
+    width: 300px;
+    margin: 100px auto;
+}
+.card-header{
+    background-color: #e8b555;
+    padding: 10px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.col {
+    flex: 1;
+    margin: 0 3px;
+    background-color: #8dd3cf;
+    text-align: center;
+}
+.col:hover,.col2:hover{
+    background-color: #39bb39;
+}
+.col2{
+    flex-basis: 50%;
+    background-color: #8dd3cf;
+    text-align: center;
+}
+button{
+    border: none;
+}
